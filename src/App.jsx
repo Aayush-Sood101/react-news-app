@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import { Routes , Route } from 'react-router-dom'
 import './App.css'
+import NewsList from './pages/news-list'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
-    <div>
-      <h1>Hello there</h1>
-    </div>
+    <Routes>
+      <Route path="/news" element={<NewsList />}></Route>
+      <Route path="*" element={<NotFound />}></Route>
+    </Routes>
   )
 }
 
