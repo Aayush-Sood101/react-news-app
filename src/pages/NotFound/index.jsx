@@ -35,7 +35,7 @@ const NotFound = () => {
       </div>
       
       <div className="mt-8 text-gray-600">
-        <p>Lost? Need help? Contact us at <span className="text-blue-600">support@example.com</span></p>
+        <p>Lost? Need help? Contact us at <span className="text-blue-600">aayushsoodhp@gmail.com</span></p>
       </div>
     </div>
   );
